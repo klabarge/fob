@@ -1,7 +1,7 @@
 # fob
 USB over IP
 
-## Configuring a Hardware Token over WAN
+## Setup USB server on LAN
 
 ### USB Server Setup (Raspberry Pi, ARM, VirtualHere)
 
@@ -12,8 +12,18 @@ USB over IP
 
 ### USB Client Setup (CLI, Linux, VirtualHere -- Fixme free version, no daemon support)
 
-##### Download, run as root
+#### macOS
+1. Download macOS installer from [VirtualHere](https://www.virtualhere.com/usb_client_software)
+1. VirtualHere Client should automatically detect server
 
+#### Windows
+1. Download macOS installer from [VirtualHere](https://www.virtualhere.com/usb_client_software)
+1. Run `vhui64.exe`
+1. Right click Hubs, Specify Hubs
+1. Enter in IP address of the server and port (7575)
+   * e.g. 192.168.0.104:7575
+
+#### Linux
 1. `mkdir vhclient && cd vhclient`
 1. `wget http://virtualhere.com/sites/default/files/usbclient/vhclientx86_64`
 1. `chmod +x vhclientx86_64`
@@ -32,6 +42,8 @@ USB over IP
 1. To connect to WAN (Windows):
  * Right Click, Specify Hubs, Add
  * Type in `HOST:PORT` #####FIXME #####
+
+## WAN Configuration
 
 ##### Dynamic DNS Update (CLI, Linux, DuckDNS)
 1. `mkdir duckdns && cd duckdns`
