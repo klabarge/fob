@@ -12,7 +12,7 @@ USB over IP
 
 ##### Make persistant
 1. Open `crontab` as root `sudo crontab -e`
-1. Add entry @reboot `/path/to/vhusbdarm`
+1. Add entry `@reboot /path/to/vhusbdarm`
 
 ### USB Client Setup (CLI, Linux, VirtualHere -- Fixme free version, no daemon support)
 
