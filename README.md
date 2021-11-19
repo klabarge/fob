@@ -21,7 +21,7 @@ USB over IP
 1. VirtualHere Client should automatically detect server
 
 #### Windows
-1. Download macOS installer from [VirtualHere](https://www.virtualhere.com/usb_client_software)
+1. Download Windows installer from [VirtualHere](https://www.virtualhere.com/usb_client_software)
 1. Run `vhui64.exe`
 1. Right click Hubs, Specify Hubs
 1. Enter in IP address of the server and port (7575)
